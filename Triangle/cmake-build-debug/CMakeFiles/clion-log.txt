@@ -1,0 +1,22 @@
+C:\Users\Ewan\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\201.7846.88\bin\cmake\win\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=C:/MinGW/bin/mingw32-make.exe -DCMAKE_C_COMPILER=C:/MinGW/bin/gcc.exe -DCMAKE_CXX_COMPILER=C:/MinGW/bin/g++.exe -G "CodeBlocks - MinGW Makefiles" C:\Users\Ewan\Desktop\Graphics\COMP-371-Proj
+-- CPM: adding package glfw@3.3.2 (3.3.2)
+-- Could NOT find Doxygen (missing: DOXYGEN_EXECUTABLE) 
+-- Using Win32 for window creation
+-- CPM: adding package glew@2.1.0 (glew-cmake-2.1.0)
+CMake Warning (dev) at cmake-build-debug/_deps/glew-src/CMakeLists.txt:2 (PROJECT):
+  Policy CMP0048 is not set: project() command manages VERSION variables.
+  Run "cmake --help-policy CMP0048" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+
+  The following variable(s) would be set to empty:
+
+    PROJECT_VERSION
+    PROJECT_VERSION_MAJOR
+    PROJECT_VERSION_MINOR
+    PROJECT_VERSION_PATCH
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- CPM: adding package glm@0.9.9.8 (0.9.9.8)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: C:/Users/Ewan/Desktop/Graphics/COMP-371-Proj/cmake-build-debug

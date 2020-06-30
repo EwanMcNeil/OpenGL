@@ -1,0 +1,423 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="COMP-371-Project"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\cmake-build-debug\;CMake Files\cmake-build-debug\cmake\;CMake Files\cmake-build-debug\_deps\;CMake Files\cmake-build-debug\_deps\glfw-src\;CMake Files\cmake-build-debug\_deps\glfw-src\src\;CMake Files\cmake-build-debug\_deps\glew-src\;CMake Files\cmake-build-debug\_deps\glm-src\;CMake Files\cmake-build-debug\_deps\glm-src\glm\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/Users/Ewan/Desktop/Graphics/COMP-371-Proj/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Ewan/Desktop/Graphics/COMP-371-Proj/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Ewan/Desktop/Graphics/COMP-371-Proj/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Ewan/Desktop/Graphics/COMP-371-Proj/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Ewan/Desktop/Graphics/COMP-371-Proj/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="list_install_components">
+				<Option working_dir="C:/Users/Ewan/Desktop/Graphics/COMP-371-Proj/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Ewan/Desktop/Graphics/COMP-371-Proj/cmake-build-debug/Makefile&quot;  VERBOSE=1 list_install_components"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Ewan/Desktop/Graphics/COMP-371-Proj/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Ewan/Desktop/Graphics/COMP-371-Proj/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Ewan/Desktop/Graphics/COMP-371-Proj/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="COMP-371-Project">
+				<Option output="C:/Users/Ewan/Desktop/Graphics/COMP-371-Proj/cmake-build-debug/COMP-371-Project.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Ewan/Desktop/Graphics/COMP-371-Proj/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DGLEW_STATIC"/>
+					<Add directory="C:/Users/Ewan/Desktop/Graphics/COMP-371-Proj/cmake-build-debug/_deps/glfw-src/include"/>
+					<Add directory="C:/Users/Ewan/Desktop/Graphics/COMP-371-Proj/cmake-build-debug/_deps/glew-src/include"/>
+					<Add directory="C:/Users/Ewan/Desktop/Graphics/COMP-371-Proj/cmake-build-debug/_deps/glm-src/glm/.."/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Ewan/Desktop/Graphics/COMP-371-Proj/cmake-build-debug/Makefile&quot;  VERBOSE=1 COMP-371-Project"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Ewan/Desktop/Graphics/COMP-371-Proj/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Ewan/Desktop/Graphics/COMP-371-Proj/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Ewan/Desktop/Graphics/COMP-371-Proj/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="COMP-371-Project/fast">
+				<Option output="C:/Users/Ewan/Desktop/Graphics/COMP-371-Proj/cmake-build-debug/COMP-371-Project.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Ewan/Desktop/Graphics/COMP-371-Proj/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DGLEW_STATIC"/>
+					<Add directory="C:/Users/Ewan/Desktop/Graphics/COMP-371-Proj/cmake-build-debug/_deps/glfw-src/include"/>
+					<Add directory="C:/Users/Ewan/Desktop/Graphics/COMP-371-Proj/cmake-build-debug/_deps/glew-src/include"/>
+					<Add directory="C:/Users/Ewan/Desktop/Graphics/COMP-371-Proj/cmake-build-debug/_deps/glm-src/glm/.."/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Ewan/Desktop/Graphics/COMP-371-Proj/cmake-build-debug/Makefile&quot;  VERBOSE=1 COMP-371-Project/fast"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Ewan/Desktop/Graphics/COMP-371-Proj/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Ewan/Desktop/Graphics/COMP-371-Proj/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Ewan/Desktop/Graphics/COMP-371-Proj/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/local">
+				<Option working_dir="C:/Users/Ewan/Desktop/Graphics/COMP-371-Proj/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Ewan/Desktop/Graphics/COMP-371-Proj/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/local"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Ewan/Desktop/Graphics/COMP-371-Proj/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Ewan/Desktop/Graphics/COMP-371-Proj/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Ewan/Desktop/Graphics/COMP-371-Proj/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install">
+				<Option working_dir="C:/Users/Ewan/Desktop/Graphics/COMP-371-Proj/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Ewan/Desktop/Graphics/COMP-371-Proj/cmake-build-debug/Makefile&quot;  VERBOSE=1 install"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Ewan/Desktop/Graphics/COMP-371-Proj/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Ewan/Desktop/Graphics/COMP-371-Proj/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Ewan/Desktop/Graphics/COMP-371-Proj/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="C:/Users/Ewan/Desktop/Graphics/COMP-371-Proj/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Ewan/Desktop/Graphics/COMP-371-Proj/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Ewan/Desktop/Graphics/COMP-371-Proj/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Ewan/Desktop/Graphics/COMP-371-Proj/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Ewan/Desktop/Graphics/COMP-371-Proj/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="C:/Users/Ewan/Desktop/Graphics/COMP-371-Proj/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Ewan/Desktop/Graphics/COMP-371-Proj/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Ewan/Desktop/Graphics/COMP-371-Proj/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Ewan/Desktop/Graphics/COMP-371-Proj/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Ewan/Desktop/Graphics/COMP-371-Proj/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/strip">
+				<Option working_dir="C:/Users/Ewan/Desktop/Graphics/COMP-371-Proj/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Ewan/Desktop/Graphics/COMP-371-Proj/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/strip"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Ewan/Desktop/Graphics/COMP-371-Proj/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Ewan/Desktop/Graphics/COMP-371-Proj/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Ewan/Desktop/Graphics/COMP-371-Proj/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="uninstall">
+				<Option working_dir="C:/Users/Ewan/Desktop/Graphics/COMP-371-Proj/cmake-build-debug/_deps/glfw-build"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Ewan/Desktop/Graphics/COMP-371-Proj/cmake-build-debug/_deps/glfw-build/Makefile&quot;  VERBOSE=1 uninstall"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Ewan/Desktop/Graphics/COMP-371-Proj/cmake-build-debug/_deps/glfw-build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Ewan/Desktop/Graphics/COMP-371-Proj/cmake-build-debug/_deps/glfw-build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Ewan/Desktop/Graphics/COMP-371-Proj/cmake-build-debug/_deps/glfw-build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="glfw">
+				<Option output="C:/Users/Ewan/Desktop/Graphics/COMP-371-Proj/cmake-build-debug/_deps/glfw-build/src/libglfw3.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Ewan/Desktop/Graphics/COMP-371-Proj/cmake-build-debug/_deps/glfw-build/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_GLFW_USE_CONFIG_H"/>
+					<Add option="-D_UNICODE"/>
+					<Add option="-DUNICODE"/>
+					<Add option="-DWINVER=0x0501"/>
+					<Add directory="C:/Users/Ewan/Desktop/Graphics/COMP-371-Proj/cmake-build-debug/_deps/glfw-src/include"/>
+					<Add directory="C:/Users/Ewan/Desktop/Graphics/COMP-371-Proj/cmake-build-debug/_deps/glfw-src/src"/>
+					<Add directory="C:/Users/Ewan/Desktop/Graphics/COMP-371-Proj/cmake-build-debug/_deps/glfw-build/src"/>
+					<Add directory="C:/Users/Ewan/Desktop/Graphics/COMP-371-Proj/cmake-build-debug/_deps/glfw-src/deps/mingw"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Ewan/Desktop/Graphics/COMP-371-Proj/cmake-build-debug/_deps/glfw-build/src/Makefile&quot;  VERBOSE=1 glfw"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Ewan/Desktop/Graphics/COMP-371-Proj/cmake-build-debug/_deps/glfw-build/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Ewan/Desktop/Graphics/COMP-371-Proj/cmake-build-debug/_deps/glfw-build/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Ewan/Desktop/Graphics/COMP-371-Proj/cmake-build-debug/_deps/glfw-build/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="glfw/fast">
+				<Option output="C:/Users/Ewan/Desktop/Graphics/COMP-371-Proj/cmake-build-debug/_deps/glfw-build/src/libglfw3.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Ewan/Desktop/Graphics/COMP-371-Proj/cmake-build-debug/_deps/glfw-build/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_GLFW_USE_CONFIG_H"/>
+					<Add option="-D_UNICODE"/>
+					<Add option="-DUNICODE"/>
+					<Add option="-DWINVER=0x0501"/>
+					<Add directory="C:/Users/Ewan/Desktop/Graphics/COMP-371-Proj/cmake-build-debug/_deps/glfw-src/include"/>
+					<Add directory="C:/Users/Ewan/Desktop/Graphics/COMP-371-Proj/cmake-build-debug/_deps/glfw-src/src"/>
+					<Add directory="C:/Users/Ewan/Desktop/Graphics/COMP-371-Proj/cmake-build-debug/_deps/glfw-build/src"/>
+					<Add directory="C:/Users/Ewan/Desktop/Graphics/COMP-371-Proj/cmake-build-debug/_deps/glfw-src/deps/mingw"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Ewan/Desktop/Graphics/COMP-371-Proj/cmake-build-debug/_deps/glfw-build/src/Makefile&quot;  VERBOSE=1 glfw/fast"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Ewan/Desktop/Graphics/COMP-371-Proj/cmake-build-debug/_deps/glfw-build/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Ewan/Desktop/Graphics/COMP-371-Proj/cmake-build-debug/_deps/glfw-build/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Ewan/Desktop/Graphics/COMP-371-Proj/cmake-build-debug/_deps/glfw-build/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="libglew_static">
+				<Option output="C:/Users/Ewan/Desktop/Graphics/COMP-371-Proj/cmake-build-debug/lib/libglewd.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Ewan/Desktop/Graphics/COMP-371-Proj/cmake-build-debug/_deps/glew-build"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DGLEW_STATIC"/>
+					<Add option="-DWIN32_MEAN_AND_LEAN"/>
+					<Add option="-DVC_EXTRALEAN"/>
+					<Add option="-D_CRT_SECURE_NO_WARNINGS"/>
+					<Add option="-DGLEW_NO_GLU"/>
+					<Add directory="C:/Users/Ewan/Desktop/Graphics/COMP-371-Proj/cmake-build-debug/_deps/glew-src/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Ewan/Desktop/Graphics/COMP-371-Proj/cmake-build-debug/_deps/glew-build/Makefile&quot;  VERBOSE=1 libglew_static"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Ewan/Desktop/Graphics/COMP-371-Proj/cmake-build-debug/_deps/glew-build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Ewan/Desktop/Graphics/COMP-371-Proj/cmake-build-debug/_deps/glew-build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Ewan/Desktop/Graphics/COMP-371-Proj/cmake-build-debug/_deps/glew-build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="libglew_static/fast">
+				<Option output="C:/Users/Ewan/Desktop/Graphics/COMP-371-Proj/cmake-build-debug/lib/libglewd.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Ewan/Desktop/Graphics/COMP-371-Proj/cmake-build-debug/_deps/glew-build"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DGLEW_STATIC"/>
+					<Add option="-DWIN32_MEAN_AND_LEAN"/>
+					<Add option="-DVC_EXTRALEAN"/>
+					<Add option="-D_CRT_SECURE_NO_WARNINGS"/>
+					<Add option="-DGLEW_NO_GLU"/>
+					<Add directory="C:/Users/Ewan/Desktop/Graphics/COMP-371-Proj/cmake-build-debug/_deps/glew-src/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Ewan/Desktop/Graphics/COMP-371-Proj/cmake-build-debug/_deps/glew-build/Makefile&quot;  VERBOSE=1 libglew_static/fast"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Ewan/Desktop/Graphics/COMP-371-Proj/cmake-build-debug/_deps/glew-build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Ewan/Desktop/Graphics/COMP-371-Proj/cmake-build-debug/_deps/glew-build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Ewan/Desktop/Graphics/COMP-371-Proj/cmake-build-debug/_deps/glew-build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="libglewmx_static">
+				<Option output="C:/Users/Ewan/Desktop/Graphics/COMP-371-Proj/cmake-build-debug/lib/libglewmxd.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Ewan/Desktop/Graphics/COMP-371-Proj/cmake-build-debug/_deps/glew-build"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DGLEW_STATIC"/>
+					<Add option="-DWIN32_MEAN_AND_LEAN"/>
+					<Add option="-DVC_EXTRALEAN"/>
+					<Add option="-D_CRT_SECURE_NO_WARNINGS"/>
+					<Add option="-DGLEW_NO_GLU"/>
+					<Add directory="C:/Users/Ewan/Desktop/Graphics/COMP-371-Proj/cmake-build-debug/_deps/glew-src/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Ewan/Desktop/Graphics/COMP-371-Proj/cmake-build-debug/_deps/glew-build/Makefile&quot;  VERBOSE=1 libglewmx_static"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Ewan/Desktop/Graphics/COMP-371-Proj/cmake-build-debug/_deps/glew-build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Ewan/Desktop/Graphics/COMP-371-Proj/cmake-build-debug/_deps/glew-build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Ewan/Desktop/Graphics/COMP-371-Proj/cmake-build-debug/_deps/glew-build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="libglewmx_static/fast">
+				<Option output="C:/Users/Ewan/Desktop/Graphics/COMP-371-Proj/cmake-build-debug/lib/libglewmxd.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Ewan/Desktop/Graphics/COMP-371-Proj/cmake-build-debug/_deps/glew-build"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DGLEW_STATIC"/>
+					<Add option="-DWIN32_MEAN_AND_LEAN"/>
+					<Add option="-DVC_EXTRALEAN"/>
+					<Add option="-D_CRT_SECURE_NO_WARNINGS"/>
+					<Add option="-DGLEW_NO_GLU"/>
+					<Add directory="C:/Users/Ewan/Desktop/Graphics/COMP-371-Proj/cmake-build-debug/_deps/glew-src/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Ewan/Desktop/Graphics/COMP-371-Proj/cmake-build-debug/_deps/glew-build/Makefile&quot;  VERBOSE=1 libglewmx_static/fast"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Ewan/Desktop/Graphics/COMP-371-Proj/cmake-build-debug/_deps/glew-build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Ewan/Desktop/Graphics/COMP-371-Proj/cmake-build-debug/_deps/glew-build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Ewan/Desktop/Graphics/COMP-371-Proj/cmake-build-debug/_deps/glew-build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/Users/Ewan/Desktop/Graphics/COMP-371-Proj/cmake-build-debug/_deps/glew-src/src/glew.c">
+			<Option target="libglew_static"/>
+			<Option target="libglewmx_static"/>
+		</Unit>
+		<Unit filename="C:/Users/Ewan/Desktop/Graphics/COMP-371-Proj/cmake-build-debug/_deps/glfw-build/src/glfw_config.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="C:/Users/Ewan/Desktop/Graphics/COMP-371-Proj/cmake-build-debug/_deps/glfw-src/include/GLFW/glfw3.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="C:/Users/Ewan/Desktop/Graphics/COMP-371-Proj/cmake-build-debug/_deps/glfw-src/include/GLFW/glfw3native.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="C:/Users/Ewan/Desktop/Graphics/COMP-371-Proj/cmake-build-debug/_deps/glfw-src/src/context.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="C:/Users/Ewan/Desktop/Graphics/COMP-371-Proj/cmake-build-debug/_deps/glfw-src/src/egl_context.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="C:/Users/Ewan/Desktop/Graphics/COMP-371-Proj/cmake-build-debug/_deps/glfw-src/src/egl_context.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="C:/Users/Ewan/Desktop/Graphics/COMP-371-Proj/cmake-build-debug/_deps/glfw-src/src/init.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="C:/Users/Ewan/Desktop/Graphics/COMP-371-Proj/cmake-build-debug/_deps/glfw-src/src/input.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="C:/Users/Ewan/Desktop/Graphics/COMP-371-Proj/cmake-build-debug/_deps/glfw-src/src/internal.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="C:/Users/Ewan/Desktop/Graphics/COMP-371-Proj/cmake-build-debug/_deps/glfw-src/src/mappings.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="C:/Users/Ewan/Desktop/Graphics/COMP-371-Proj/cmake-build-debug/_deps/glfw-src/src/monitor.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="C:/Users/Ewan/Desktop/Graphics/COMP-371-Proj/cmake-build-debug/_deps/glfw-src/src/osmesa_context.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="C:/Users/Ewan/Desktop/Graphics/COMP-371-Proj/cmake-build-debug/_deps/glfw-src/src/osmesa_context.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="C:/Users/Ewan/Desktop/Graphics/COMP-371-Proj/cmake-build-debug/_deps/glfw-src/src/vulkan.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="C:/Users/Ewan/Desktop/Graphics/COMP-371-Proj/cmake-build-debug/_deps/glfw-src/src/wgl_context.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="C:/Users/Ewan/Desktop/Graphics/COMP-371-Proj/cmake-build-debug/_deps/glfw-src/src/wgl_context.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="C:/Users/Ewan/Desktop/Graphics/COMP-371-Proj/cmake-build-debug/_deps/glfw-src/src/win32_init.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="C:/Users/Ewan/Desktop/Graphics/COMP-371-Proj/cmake-build-debug/_deps/glfw-src/src/win32_joystick.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="C:/Users/Ewan/Desktop/Graphics/COMP-371-Proj/cmake-build-debug/_deps/glfw-src/src/win32_joystick.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="C:/Users/Ewan/Desktop/Graphics/COMP-371-Proj/cmake-build-debug/_deps/glfw-src/src/win32_monitor.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="C:/Users/Ewan/Desktop/Graphics/COMP-371-Proj/cmake-build-debug/_deps/glfw-src/src/win32_platform.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="C:/Users/Ewan/Desktop/Graphics/COMP-371-Proj/cmake-build-debug/_deps/glfw-src/src/win32_thread.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="C:/Users/Ewan/Desktop/Graphics/COMP-371-Proj/cmake-build-debug/_deps/glfw-src/src/win32_time.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="C:/Users/Ewan/Desktop/Graphics/COMP-371-Proj/cmake-build-debug/_deps/glfw-src/src/win32_window.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="C:/Users/Ewan/Desktop/Graphics/COMP-371-Proj/cmake-build-debug/_deps/glfw-src/src/window.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="C:/Users/Ewan/Desktop/Graphics/COMP-371-Proj/main.cpp">
+			<Option target="COMP-371-Project"/>
+		</Unit>
+		<Unit filename="C:/Users/Ewan/Desktop/Graphics/COMP-371-Proj/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="C:/Users/Ewan/Desktop/Graphics/COMP-371-Proj/cmake-build-debug/cmake/CPM.cmake">
+			<Option virtualFolder="CMake Files\cmake-build-debug\cmake\"/>
+		</Unit>
+		<Unit filename="C:/Users/Ewan/Desktop/Graphics/COMP-371-Proj/cmake-build-debug/_deps/glfw-src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\glfw-src\"/>
+		</Unit>
+		<Unit filename="C:/Users/Ewan/Desktop/Graphics/COMP-371-Proj/cmake-build-debug/_deps/glfw-src/cmake_uninstall.cmake.in">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\glfw-src\"/>
+		</Unit>
+		<Unit filename="C:/Users/Ewan/Desktop/Graphics/COMP-371-Proj/cmake-build-debug/_deps/glfw-src/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\glfw-src\src\"/>
+		</Unit>
+		<Unit filename="C:/Users/Ewan/Desktop/Graphics/COMP-371-Proj/cmake-build-debug/_deps/glfw-src/src/glfw3.pc.in">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\glfw-src\src\"/>
+		</Unit>
+		<Unit filename="C:/Users/Ewan/Desktop/Graphics/COMP-371-Proj/cmake-build-debug/_deps/glfw-src/src/glfw3Config.cmake.in">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\glfw-src\src\"/>
+		</Unit>
+		<Unit filename="C:/Users/Ewan/Desktop/Graphics/COMP-371-Proj/cmake-build-debug/_deps/glfw-src/src/glfw_config.h.in">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\glfw-src\src\"/>
+		</Unit>
+		<Unit filename="C:/Users/Ewan/Desktop/Graphics/COMP-371-Proj/cmake-build-debug/_deps/glew-src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\glew-src\"/>
+		</Unit>
+		<Unit filename="C:/Users/Ewan/Desktop/Graphics/COMP-371-Proj/cmake-build-debug/_deps/glm-src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\glm-src\"/>
+		</Unit>
+		<Unit filename="C:/Users/Ewan/Desktop/Graphics/COMP-371-Proj/cmake-build-debug/_deps/glm-src/glm/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\glm-src\glm\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="glm"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\cmake-build-debug\;CMake Files\cmake-build-debug\cmake\;CMake Files\cmake-build-debug\_deps\;CMake Files\cmake-build-debug\_deps\glfw-src\;CMake Files\cmake-build-debug\_deps\glfw-src\src\;CMake Files\cmake-build-debug\_deps\glew-src\;CMake Files\cmake-build-debug\_deps\glm-src\;CMake Files\cmake-build-debug\_deps\glm-src\glm\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/Users/Ewan/Desktop/Graphics/COMP-371-Proj/cmake-build-debug/_deps/glm-build"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Ewan/Desktop/Graphics/COMP-371-Proj/cmake-build-debug/_deps/glm-build/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Ewan/Desktop/Graphics/COMP-371-Proj/cmake-build-debug/_deps/glm-build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Ewan/Desktop/Graphics/COMP-371-Proj/cmake-build-debug/_deps/glm-build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Ewan/Desktop/Graphics/COMP-371-Proj/cmake-build-debug/_deps/glm-build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/Users/Ewan/Desktop/Graphics/COMP-371-Proj/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="C:/Users/Ewan/Desktop/Graphics/COMP-371-Proj/cmake-build-debug/cmake/CPM.cmake">
+			<Option virtualFolder="CMake Files\cmake-build-debug\cmake\"/>
+		</Unit>
+		<Unit filename="C:/Users/Ewan/Desktop/Graphics/COMP-371-Proj/cmake-build-debug/_deps/glfw-src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\glfw-src\"/>
+		</Unit>
+		<Unit filename="C:/Users/Ewan/Desktop/Graphics/COMP-371-Proj/cmake-build-debug/_deps/glfw-src/cmake_uninstall.cmake.in">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\glfw-src\"/>
+		</Unit>
+		<Unit filename="C:/Users/Ewan/Desktop/Graphics/COMP-371-Proj/cmake-build-debug/_deps/glfw-src/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\glfw-src\src\"/>
+		</Unit>
+		<Unit filename="C:/Users/Ewan/Desktop/Graphics/COMP-371-Proj/cmake-build-debug/_deps/glfw-src/src/glfw3.pc.in">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\glfw-src\src\"/>
+		</Unit>
+		<Unit filename="C:/Users/Ewan/Desktop/Graphics/COMP-371-Proj/cmake-build-debug/_deps/glfw-src/src/glfw3Config.cmake.in">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\glfw-src\src\"/>
+		</Unit>
+		<Unit filename="C:/Users/Ewan/Desktop/Graphics/COMP-371-Proj/cmake-build-debug/_deps/glfw-src/src/glfw_config.h.in">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\glfw-src\src\"/>
+		</Unit>
+		<Unit filename="C:/Users/Ewan/Desktop/Graphics/COMP-371-Proj/cmake-build-debug/_deps/glew-src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\glew-src\"/>
+		</Unit>
+		<Unit filename="C:/Users/Ewan/Desktop/Graphics/COMP-371-Proj/cmake-build-debug/_deps/glm-src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\glm-src\"/>
+		</Unit>
+		<Unit filename="C:/Users/Ewan/Desktop/Graphics/COMP-371-Proj/cmake-build-debug/_deps/glm-src/glm/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\glm-src\glm\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
